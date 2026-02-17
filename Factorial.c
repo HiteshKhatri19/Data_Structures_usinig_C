@@ -25,8 +25,9 @@ int main()
     else
     {
         fact = factorial(number);
-        printf("Factorial of %d = %lld\n", number, fact);
+        printf("Factorial of %d = %d\n", number, fact);
     }
 
     return 0;
+
 }
